@@ -1,0 +1,8 @@
+[Bb]in/
+[Oo]bj/
+.vs/
+
+!/bin/
+!/bin/GBS.Core.dll
+!/bin/GBS.Text.dll
+!/bin/GBS.WinForms.dll

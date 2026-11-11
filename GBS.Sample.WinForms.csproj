@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="GBS.Core">
+      <HintPath>..\bin\GBS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GBS.Text">
+      <HintPath>..\bin\GBS.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="GBS.WinForms">
+      <HintPath>..\bin\GBS.WinForms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
