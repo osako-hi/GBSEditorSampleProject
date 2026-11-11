@@ -1,9 +1,6 @@
 [Bb]in/
 [Oo]bj/
 .vs/
+*.csproj.user
 
-!/bin/
-!/bin/GBS.Core.dll
-!/bin/GBS.Text.dll
-!/bin/GBS.WinForms.dll
-/bin
+!/lib/bin/
