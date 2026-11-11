@@ -10,13 +10,13 @@
 
   <ItemGroup>
     <Reference Include="GBS.Core">
-      <HintPath>..\bin\GBS.Core.dll</HintPath>
+      <HintPath>lib\bin\GBS.Core.dll</HintPath>
     </Reference>
     <Reference Include="GBS.Text">
-      <HintPath>..\bin\GBS.Text.dll</HintPath>
+      <HintPath>lib\bin\GBS.Text.dll</HintPath>
     </Reference>
     <Reference Include="GBS.WinForms">
-      <HintPath>..\bin\GBS.WinForms.dll</HintPath>
+      <HintPath>lib\bin\GBS.WinForms.dll</HintPath>
     </Reference>
   </ItemGroup>
 
