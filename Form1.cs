@@ -13,7 +13,6 @@ namespace GBS.Sample.WinForms
         public Form1()
         {
             InitializeComponent();
-            FormClosing += Form1_FormClosing;
         }
 
         private void 開くoToolStripMenuItem_Click(object sender, EventArgs e)
