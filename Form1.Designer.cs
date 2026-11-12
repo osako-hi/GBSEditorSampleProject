@@ -66,7 +66,7 @@
             gbsEditor1.TabIndex = 0;
             gbsEditor1.Text = "gbsEditor1";
             gbsEditor1.ViewOffset = 0L;
-            gbsEditor1.WrapMode = GBS.Text.WrapMode.None;
+            gbsEditor1.WrapMode = GBS.Text.WrapMode.Character;
             // 
             // gbsRollBar1
             // 
@@ -102,28 +102,28 @@
             // toolStripMenuItem1
             // 
             toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Size = new Size(180, 22);
+            toolStripMenuItem1.Size = new Size(161, 22);
             toolStripMenuItem1.Text = "新規作成";
             toolStripMenuItem1.Click += toolStripMenuItem1_Click;
             // 
             // 開くoToolStripMenuItem
             // 
             開くoToolStripMenuItem.Name = "開くoToolStripMenuItem";
-            開くoToolStripMenuItem.Size = new Size(180, 22);
+            開くoToolStripMenuItem.Size = new Size(161, 22);
             開くoToolStripMenuItem.Text = "開く(&o)";
             開くoToolStripMenuItem.Click += 開くoToolStripMenuItem_Click;
             // 
             // 上書き保存ToolStripMenuItem
             // 
             上書き保存ToolStripMenuItem.Name = "上書き保存ToolStripMenuItem";
-            上書き保存ToolStripMenuItem.Size = new Size(180, 22);
+            上書き保存ToolStripMenuItem.Size = new Size(161, 22);
             上書き保存ToolStripMenuItem.Text = "上書き保存";
             上書き保存ToolStripMenuItem.Click += 上書き保存ToolStripMenuItem_Click;
             // 
             // 名前を付けて保存ToolStripMenuItem
             // 
             名前を付けて保存ToolStripMenuItem.Name = "名前を付けて保存ToolStripMenuItem";
-            名前を付けて保存ToolStripMenuItem.Size = new Size(180, 22);
+            名前を付けて保存ToolStripMenuItem.Size = new Size(161, 22);
             名前を付けて保存ToolStripMenuItem.Text = "名前を付けて保存";
             名前を付けて保存ToolStripMenuItem.Click += 名前を付けて保存ToolStripMenuItem_Click;
             // 
@@ -137,7 +137,7 @@
             // 質問を投稿するToolStripMenuItem
             // 
             質問を投稿するToolStripMenuItem.Name = "質問を投稿するToolStripMenuItem";
-            質問を投稿するToolStripMenuItem.Size = new Size(180, 22);
+            質問を投稿するToolStripMenuItem.Size = new Size(150, 22);
             質問を投稿するToolStripMenuItem.Text = "質問を投稿する";
             質問を投稿するToolStripMenuItem.Click += 質問を投稿するToolStripMenuItem_Click;
             // 
@@ -146,8 +146,8 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(gbsRollBar1);
             Controls.Add(gbsEditor1);
+            Controls.Add(gbsRollBar1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
