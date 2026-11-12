@@ -50,7 +50,7 @@
             gbsEditor1.Dock = DockStyle.Fill;
             gbsEditor1.EnableVirtualCommands = true;
             gbsEditor1.FindPaletteCount = 10;
-            gbsEditor1.Font = new Font("Consolas", 11F);
+            gbsEditor1.Font = new Font("ＭＳ 明朝", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             gbsEditor1.ForeColor = Color.Black;
             gbsEditor1.Location = new Point(0, 24);
             gbsEditor1.MetaMarks.Color = Color.FromArgb(145, 150, 160);
@@ -62,7 +62,7 @@
             gbsEditor1.MetaMarks.LFSymbol = "↓";
             gbsEditor1.MetaMarks.TabSymbol = "→";
             gbsEditor1.Name = "gbsEditor1";
-            gbsEditor1.Size = new Size(800, 426);
+            gbsEditor1.Size = new Size(725, 426);
             gbsEditor1.TabIndex = 0;
             gbsEditor1.Text = "gbsEditor1";
             gbsEditor1.ViewOffset = 0L;
